@@ -67,6 +67,7 @@ padding-left: 45px;
 /* main section styels */
 .features {
     margin-top: 85px;
+    margin-bottom: 130px;
 }
 /* feature section */
 .grid-container {
@@ -80,6 +81,26 @@ padding-left: 45px;
 .half-width {
     width: 45%;
 }
+.half-width img {
+    width: 100%;
+}
 .headline {
     width: 468px;
+}
+
+/* features details section */
+.card-container {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-row-gap: 20px;
+}
+.card {
+    padding: 0 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+#experienc-btn {
+    position: relative;
+    bottom: 50px;
+    right: 50px;
 }
