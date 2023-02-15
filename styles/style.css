@@ -120,3 +120,13 @@ justify-content: space-evenly;
 text-align: center;
 padding: 35px 50px;
 }
+/* sponsors section styles */
+.sponsors-text {
+    margin: auto;
+    width: 542px;
+    text-align: center;
+margin-bottom: 50px;
+}
+.brand img {
+    width: 70%;
+}
