@@ -104,3 +104,19 @@ padding-left: 45px;
     bottom: 50px;
     right: 50px;
 }
+/* facts section styles */
+.facts-section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.facts-container {
+    margin-top: 100px;
+    display: flex;
+justify-content: space-evenly;
+}
+.fact {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+text-align: center;
+padding: 35px 50px;
+}
