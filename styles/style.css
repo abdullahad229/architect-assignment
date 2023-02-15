@@ -17,7 +17,7 @@ header {
 .header-content {
     margin: 0px 230px;
 }
-nav {
+.flexbox {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,4 +62,24 @@ padding-left: 45px;
 }
 .banner-img img {
     width: 100%;
+}
+
+/* main section styels */
+.features {
+    margin-top: 85px;
+}
+/* feature section */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+.grid-container>div img {
+    width: 100%;
+}
+.half-width {
+    width: 45%;
+}
+.headline {
+    width: 468px;
 }
