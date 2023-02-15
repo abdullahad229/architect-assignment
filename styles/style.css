@@ -130,3 +130,10 @@ margin-bottom: 50px;
 .brand img {
     width: 70%;
 }
+/* footer styles  */
+footer {
+    text-align: center;
+    background-color: #FFF4E7;
+border-radius: 8px;
+padding: 20px 0px;
+}
