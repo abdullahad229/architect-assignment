@@ -1,0 +1,54 @@
+/* media query */
+/* for mobile view */
+@media only screen and (max-width: 576px) {
+    html, body {
+        overflow-x: hidden;
+    }
+/* header  */
+    .header-content  {
+        margin: 0px;
+    }
+    header {
+        height: 900px;
+    }
+    .flexbox {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    nav>div ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    .banner {
+        overflow: hidden;
+        scroll-behavior: auto;
+    }
+    .banner-text {
+        width: 80%;
+    }
+    .banner-text h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    nav>div ul> li {
+        padding-left: 0;
+        }
+        main {
+            margin: 0;
+        }
+        .grid-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .grid-container>div img {
+            width: 100%;
+        }
+        .some-facts {
+            width: 90%;
+            text-align: center;
+        }
+   
+
+
+  }

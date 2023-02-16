@@ -123,6 +123,20 @@ padding-left: 45px;
     bottom: 50px;
     right: 50px;
 }
+/* quotes section styles */
+.quote-section {
+    margin: 130px 0px;
+}
+.quotes {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.fa {
+    color: rgba(255, 144, 14, 1);
+    font-size: 45px;
+
+}
 /* facts section styles */
 .facts-section {
     margin-top: 130px;
@@ -158,39 +172,3 @@ footer {
 border-radius: 8px;
 padding: 20px 0px;
 }
-/* media query */
-/* for mobile view */
-@media only screen and (max-width: 576px) {
-    .header-content  {
-        margin: 0px;
-    }
-    .flexbox {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    nav>div ul {
-        flex-direction: column;
-        padding: 0;
-    }
-    .banner {
-        overflow: hidden;
-        scroll-behavior: auto;
-    }
-    .banner-text {
-        width: 80%;
-    }
-    .banner-text h1 {
-        font-size: 16px;
-        font-weight: 800;
-    }
-    nav>div ul> li {
-        padding-left: 0;
-        }
-   main{
-    display: none;
-   }
-   footer {
-    display: none;
-   }
-  }
