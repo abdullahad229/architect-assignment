@@ -4,18 +4,20 @@
 /* utilities */
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans';
 margin: 0;
 }
-
+p {
+    color: rgba(114, 114, 114, 1)
+}
 /* header styles */
 /* navbar */
 header {
     background-color: rgba(255, 144, 14, 0.1);
-    height: 1300px;
+    height: 1200px;
 }
 .header-content {
-    margin: 0px 230px;
+    margin: 0px 220px;
 }
 .flexbox {
     display: flex;
@@ -24,32 +26,29 @@ header {
 }
 nav h6 {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 800;
 }
 nav>div ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     font-size: 18px;
+    color: #131313;
 }
 nav>div ul> li {
 padding-left: 45px;
 }
 
 /* banner section */
-.banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .banner-text {
-    width: 826px;
+    width: 862px;
+    margin: auto;
     text-align: center;
     margin-bottom: 50px;
 }
 .banner-text h1 {
     font-size: 64px;
-    font-weight: 700;
+    font-weight: 800;
 }
 .orange-btn {
     padding: 17px 22px;
@@ -84,11 +83,27 @@ padding-left: 45px;
 .half-width img {
     width: 100%;
 }
-.headline {
+.gray-color {
+    color: #727272;
+    font-weight: 500px;
+}
+.orange-color {
+    color: rgba(255, 144, 14, 1);
+
+}
+.feature-headline {
     width: 468px;
+    font-size: 45px;
 }
 
 /* features details section */
+.orange-border {
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+
+}
 .card-container {
     display: grid;
     grid-template-rows: repeat(1, 1fr);
