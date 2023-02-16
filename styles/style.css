@@ -25,7 +25,7 @@ header {
     justify-content: space-between;
 }
 nav h6 {
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 800;
 }
 nav>div ul {
@@ -45,7 +45,9 @@ padding-left: 45px;
     margin: auto;
     text-align: center;
     margin-bottom: 50px;
+  
 }
+
 .banner-text h1 {
     font-size: 64px;
     font-weight: 800;
@@ -156,3 +158,39 @@ footer {
 border-radius: 8px;
 padding: 20px 0px;
 }
+/* media query */
+/* for mobile view */
+@media only screen and (max-width: 576px) {
+    .header-content  {
+        margin: 0px;
+    }
+    .flexbox {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    nav>div ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    .banner {
+        overflow: hidden;
+        scroll-behavior: auto;
+    }
+    .banner-text {
+        width: 80%;
+    }
+    .banner-text h1 {
+        font-size: 16px;
+        font-weight: 800;
+    }
+    nav>div ul> li {
+        padding-left: 0;
+        }
+   main{
+    display: none;
+   }
+   footer {
+    display: none;
+   }
+  }
