@@ -153,6 +153,12 @@ justify-content: space-evenly;
 text-align: center;
 padding: 35px 50px;
 }
+.fact:hover {
+    transform: scale(1.2);
+    animation-duration: 6s;
+    background-color: #FF900E;
+    color: white;
+}
 /* sponsors section styles */
 .sponsors-text {
     margin: auto;
